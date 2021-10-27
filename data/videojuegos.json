@@ -1,0 +1,66 @@
+[
+    {
+        "id": 0,
+        "nombre": "Half Life 1",
+        "urlImagen": "https://i.blogs.es/95bc11/2560_3000-1-/1366_2000.jpg",
+        "precio": 180,
+        "categoria": "Shooter"
+    },
+    {
+        "id": 1,
+        "nombre": "Half Life 2",
+        "urlImagen": "https://cdn.akamai.steamstatic.com/steam/apps/220/header.jpg?t=1591063154",
+        "precio": 360,
+        "categoria": "Shooter"
+    },
+    {
+        "id": 2,
+        "nombre": "Civilization VI",
+        "urlImagen": "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/offer/EGS_SidMeiersCivilizationVI_FiraxisGames_S1-2560x1440-2fcd1c150ac6d8cdc672ae042d2dd179.jpg",
+        "precio": 650,
+        "categoria": "Estrategia"
+    },
+    {
+        "id": 3,
+        "nombre": "The Witcher 3",
+        "urlImagen": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1621939214",
+        "precio": 450,
+        "categoria": "RPG"
+    },
+    {
+        "id": 4,
+        "nombre": "Battlefield 1",
+        "urlImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCSkRnb7ayncyLPd7_0lycX0XqqlbDKQ8Utl1YOJrLfRH3dnct625hIcJstKGquW44Fe0&usqp=CAU",
+        "precio": 1350,
+        "categoria": "Shooter"
+    },
+    {
+        "id": 5,
+        "nombre": "The Elders Scrolls V Skyrim",
+        "urlImagen": "https://cdn.alfabetajuega.com/wp-content/uploads/2021/02/The-Elder-Scrolls-V-Skyrim-780x405.jpg",
+        "precio": 550,
+        "categoria": "RPG"
+    },
+    {
+        "id": 6,
+        "nombre": "Warcraft 3",
+        "urlImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AwT1hC9P2fbgB-M090Ih3BWXH1fRt4K5VQ&usqp=CAU",
+        "precio": 280,
+        "categoria": "Estrategia"
+    },
+    {
+        "id": 7,
+        "nombre": "Diablo 2",
+        "urlImagen": "https://i.blogs.es/4d83cf/diablo-ii-resurrected/1366_2000.jpeg",
+        "precio": 280,
+        "categoria": "RPG"
+    }
+    ,
+    {
+        "id": 8,
+        "nombre": "Yakuza 0",
+        "urlImagen": "https://www.otakufreaks.com/wp-content/uploads/2019/09/yakuza-0-de-pc-traducido-al-espanol-castellano.jpg",
+        "precio": 180,
+        "categoria": "Acción"
+    }
+]

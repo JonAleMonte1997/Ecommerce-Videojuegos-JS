@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="js/jQuery/jquery-3.6.0.min.js"></script>
+    
+    <title>ECommerce</title>
+</head>
+<body class="bg-dark">
+  <!-- Header -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" width="64" height="40" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca-de">ACERCA DE</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carrito -->
+  <section class="container text-light">
+    <h1 class="text-center mt-5 mb-5">CARRITO</h1>
+    <table class="table table-light">
+      <thead>
+        <tr>
+          <th scope="col">Videojuego</th>
+          <th scope="col">Precio</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody id="carrito">
+      </tbody>
+    </table>
+    <h2 class="mt-5 mb-5" id="total">Total: </h2>
+    <button id="btn-confirmar" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#confirmarVenta">Confirmar compra</button>
+  </section>
+
+  <section>
+    <div class="modal fade" id="confirmarVenta" tabindex="-1" aria-labelledby="confirmarVentaLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="confirmarVentaLabel">¡Gracias!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Salir"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Estamos procesando su compra, en un momento sera redirigido a MercadoPago para realizar el pago
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light pt-5 pb-3 mt-5" id="acerca-de">
+    <div class="container">
+        <h2>ACERCA DE</h2>
+        <p>MiTiendaDigital2021 todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/clases/Carrito.js"></script>
+  <script src="js/carritoScripts.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
